@@ -16,7 +16,9 @@ exports[`Tests for <SearchPage /> should show correctly with default values 1`] 
         Searching
       </h4>
       <hr />
-      <form>
+      <form
+        aria-label="form"
+      >
         <input
           autocomplete="off"
           class="form-control"
