@@ -45,6 +45,7 @@ exports[`Tests for <SearchPage /> should show correctly with default values 1`] 
         Search a hero
       </div>
       <div
+        aria-label="alert-danger"
         class="alert alert-danger animate__animated animate__fadeIn"
         style="display: none;"
       >
